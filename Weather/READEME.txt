@@ -1,0 +1,1 @@
+This is a website which gives you temperature of entered city which you entered
