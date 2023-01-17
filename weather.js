@@ -34,7 +34,7 @@ const displaytemperature=temperature =>{
     console.log(temperature)
     setinnertext("city",temperature.name)
     setinnertext("weather",temperature.weather[0].main)
-    const celsius=Math.round((parseInt(temperature.main.temp)-273.14))
+    const celsius=Math.round((parseInt(temperature.main.temp)-273.14 +1))
     const conver=celsius.toString()
     console.log(conver)
     setinnertext("temp",conver)
