@@ -46,11 +46,11 @@ const displaytemperature=temperature =>{
 const background=a=>{
     if(a<10){
         const bg=document.getElementById("bod").style.background="url('./img3.jpg')"
-        // const bag=document.getElementById("bod").style.backgroundSize="cover"
+        const bag=document.getElementById("bod").style.backgroundSize="cover"
     }
     else{
         const bg=document.getElementById("bod").style.background="url('./img1.jpg') no-repeat"
-        // const bag=document.getElementById("bod").style.backgroundSize="cover"
+        const bag=document.getElementById("bod").style.backgroundSize="cover"
 
     }
 }
